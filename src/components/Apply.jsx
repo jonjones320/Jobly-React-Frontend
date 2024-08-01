@@ -1,6 +1,6 @@
 import React, { useContext, useState, useEffect } from 'react';
 import AuthContext from '../context/AuthContext';
-import JoblyApi from '../../../api';
+import JoblyApi from '../../api';
 
 function Apply({ jobId }) {
     const { currentUser, setCurrentUser } = useContext(AuthContext);
