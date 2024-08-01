@@ -1,6 +1,6 @@
 import React, { createContext, useState, useEffect } from 'react';
 import { jwtDecode } from 'jwt-decode';
-import JoblyApi from '../../../api';
+import JoblyApi from '../../api';
 
 
 const AuthContext = createContext();

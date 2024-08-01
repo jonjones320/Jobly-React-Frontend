@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import JoblyApi from '../../../api';
+import JoblyApi from '../../api';
 import CompanyCard from './CompanyCard';
 
 
